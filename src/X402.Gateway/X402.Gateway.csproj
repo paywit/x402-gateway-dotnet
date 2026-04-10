@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>X402.Gateway</RootNamespace>
+    <AssemblyName>X402.Gateway</AssemblyName>
+    <PackageId>x402-gateway-dotnet</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Paywit</Authors>
+    <Description>x402 payment gateway middleware for ASP.NET. Protect API routes with USDC micropayments on Stellar. Verify-proxy-settle flow with facilitator integration.</Description>
+    <PackageTags>x402;stellar;payments;ai-agents;middleware;gateway;aspnet</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/paywit/x402-gateway-dotnet</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\x402-stellar-dotnet\src\X402.Stellar\X402.Stellar.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="YamlDotNet" Version="16.3.0" />
+  </ItemGroup>
+
+</Project>

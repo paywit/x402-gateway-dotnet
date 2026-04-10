@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3B5F2E51-9386-41B6-BD58-792FE320171C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X402.Gateway", "src\X402.Gateway\X402.Gateway.csproj", "{EF20F88E-1D76-473A-A700-29EE6315C394}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D4B29F0E-90C7-4C50-8CEC-1D33A5EC828B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X402.Gateway.Tests", "tests\X402.Gateway.Tests\X402.Gateway.Tests.csproj", "{AF6F171A-DBBE-4539-ACB1-2BEA613E9D9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF20F88E-1D76-473A-A700-29EE6315C394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF20F88E-1D76-473A-A700-29EE6315C394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF20F88E-1D76-473A-A700-29EE6315C394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF20F88E-1D76-473A-A700-29EE6315C394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF6F171A-DBBE-4539-ACB1-2BEA613E9D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6F171A-DBBE-4539-ACB1-2BEA613E9D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6F171A-DBBE-4539-ACB1-2BEA613E9D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6F171A-DBBE-4539-ACB1-2BEA613E9D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF20F88E-1D76-473A-A700-29EE6315C394} = {3B5F2E51-9386-41B6-BD58-792FE320171C}
+		{AF6F171A-DBBE-4539-ACB1-2BEA613E9D9D} = {D4B29F0E-90C7-4C50-8CEC-1D33A5EC828B}
+	EndGlobalSection
+EndGlobal
